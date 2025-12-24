@@ -1,0 +1,44 @@
+.lobby {
+  min-width: 1440px;
+  height: 814px;
+  background-color: #181823; /* правая часть */
+  background: linear-gradient(
+    to right,
+    #000000 0%,
+    #000000 30%,
+    #181823 30%,
+    #181823 100%
+  );
+}
+
+.lobby-container {
+  height: 814px;
+  background-image: url('../images/Robin.jpg');
+
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0 80px;
+  min-width: 650px;
+  max-height: 750px;
+}
+
+.lobby-maintext {
+  padding: 221px 40px 225px 662px;
+}
+.lobby-tittle {
+  max-width: 738px;
+  max-height: 368px;
+  font-size: 78px;
+  color: #fff;
+  margin-bottom: 32px;
+}
+.lobby-span {
+  color: rgba(255, 255, 255, 0.5);
+}
+.lobby-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #fff;
+  max-width: 738px;
+}
